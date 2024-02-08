@@ -94,7 +94,7 @@
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
       "version": "2024.1 EAP3",
       "sha256": "sha256-k8gLG2LzHZIBuEU+cWmvkqqF2Zz0YuXLJ1fTw4Wr27c=",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-241.10840.28.tar.gz",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-EAP3-241.10840.28.Checked.tar.gz",
       "build_number": "241.10840.28"
     },
     "ruby-mine": {
