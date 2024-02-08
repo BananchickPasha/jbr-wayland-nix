@@ -35,11 +35,11 @@ let
   ideInfo = lib.importJSON ./bin/ides.json;
   versions = lib.importJSON ./bin/versions.json;
   products = versions.${system} or (throw "Unsupported system: ${system}");
-  vmopts = if vmopts == null then ''
+  vmopts' = if vmopts == null then ''
       -Xms1024m
-      -Xmx4096m
+      -Xmx8192m
       -XX:+UseZGC
-      -XX:ReservedCodeCacheSize=512m
+      -XX:ReservedCodeCacheSize=2048m
       -XX:SoftRefLRUPolicyMSPerMB=50
       -XX:CICompilerCount=2
       -XX:+HeapDumpOnOutOfMemoryError
@@ -99,7 +99,7 @@ let
   '' else vmopts;
 
   package = if stdenv.isDarwin then ./bin/darwin.nix else ./bin/linux.nix;
-  mkJetBrainsProductCore = callPackage package { inherit vmopts; };
+  mkJetBrainsProductCore = callPackage package { vmopts = vmopts'; };
   mkMeta = meta: fromSource: {
     inherit (meta) homepage longDescription;
     description = meta.description + lib.optionalString meta.isOpenSource (if fromSource then " (built from source)" else " (patched binaries from jetbrains)");

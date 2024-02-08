@@ -1,21 +1,22 @@
 {
-  description = "A flake for pam-fprint-grosshack";
+  description = "A flake for EAP jetbrains releases with Wayland support";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
 
-  outputs = { self, nixpkgs }: {
-    packages.x86_64-linux = with import nixpkgs { system = "x86_64-linux"; }; {
-      jetbrains = (recurseIntoAttrs
-        (callPackages ./editors {
-          jdk = jetbrains.jdk;
-        }) // {
-          jdk-no-jcef = callPackage ./jbr {
-            withJcef = false;
-          };
-          jdk = callPackage ./jbr { };
-          jcef =
-            callPackage ./jbr/jcef.nix { };
-        });
+  outputs = { self, nixpkgs }:
+    let
+      overlay = final: prev: {
+        jetbrains = {
+          jdk = prev.callPackage ./jbr {};
+          jcef = prev.callPackage ./jbr/jcef.nix { };
+        };
+      };
+    in {
+      packages.x86_64-linux =
+        with import nixpkgs { system = "x86_64-linux"; overlays = [overlay]; }; {
+          jetbrains = (recurseIntoAttrs
+            (callPackages ./editors {jdk = jetbrains.jdk;}) // {
+            });
+        };
     };
-  };
 }
