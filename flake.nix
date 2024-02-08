@@ -13,7 +13,11 @@
       };
     in {
       packages.x86_64-linux =
-        with import nixpkgs { system = "x86_64-linux"; overlays = [overlay]; }; {
+        with import nixpkgs {
+          system = "x86_64-linux";
+          overlays = [overlay];
+          config.allowUnfree = true;
+        }; {
           jetbrains = (recurseIntoAttrs
             (callPackages ./editors {jdk = jetbrains.jdk;}) // {
             });
