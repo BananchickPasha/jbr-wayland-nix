@@ -24,7 +24,8 @@
 , xorg
 , libGL
 
-, vmopts ? null
+, vmopts
+, versions
 }:
 
 let
@@ -33,73 +34,10 @@ let
   # `ides.json` is handwritten and contains information that doesn't change across updates, like maintainers and other metadata
   # `versions.json` contains everything generated/needed by the update script version numbers, build numbers and tarball hashes
   ideInfo = lib.importJSON ./bin/ides.json;
-  versions = lib.importJSON ./bin/versions.json;
   products = versions.${system} or (throw "Unsupported system: ${system}");
-  vmopts' = if vmopts == null then ''
-      -Xms1024m
-      -Xmx8192m
-      -XX:+UseZGC
-      -XX:ReservedCodeCacheSize=2048m
-      -XX:SoftRefLRUPolicyMSPerMB=50
-      -XX:CICompilerCount=2
-      -XX:+HeapDumpOnOutOfMemoryError
-      -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend
-      -ea
-      -Dsun.io.useCanonCaches=false
-      -Dsun.java2d.metal=true
-      -Djbr.catch.SIGABRT=true
-      -Djdk.http.auth.tunneling.disabledSchemes=""
-      -Djdk.attach.allowAttachSelf=true
-      -Djdk.module.illegalAccess.silent=true
-      -Dkotlinx.coroutines.debug=off
-      -Dsun.tools.attach.tmp.only=true
-      -Dawt.lock.fair=true
-
-      -Dawt.toolkit.name=WLToolkit
-      --add-opens=java.base/java.io=ALL-UNNAMED
-      --add-opens=java.base/java.lang=ALL-UNNAMED
-      --add-opens=java.base/java.lang.ref=ALL-UNNAMED
-      --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
-      --add-opens=java.base/java.net=ALL-UNNAMED
-      --add-opens=java.base/java.nio=ALL-UNNAMED
-      --add-opens=java.base/java.nio.charset=ALL-UNNAMED
-      --add-opens=java.base/java.text=ALL-UNNAMED
-      --add-opens=java.base/java.time=ALL-UNNAMED
-      --add-opens=java.base/java.util=ALL-UNNAMED
-      --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-      --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED
-      --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED
-      --add-opens=java.base/sun.nio.ch=ALL-UNNAMED
-      --add-opens=java.base/sun.nio.fs=ALL-UNNAMED
-      --add-opens=java.base/sun.security.ssl=ALL-UNNAMED
-      --add-opens=java.base/sun.security.util=ALL-UNNAMED
-      --add-opens=java.base/sun.net.dns=ALL-UNNAMED
-      --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt.event=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt.image=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED
-      --add-opens=java.desktop/java.awt.font=ALL-UNNAMED
-      --add-opens=java.desktop/javax.swing=ALL-UNNAMED
-      --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
-      --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
-      --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED
-      --add-opens=java.desktop/sun.awt.wl=ALL-UNNAMED
-      --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED
-      --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
-      --add-opens=java.desktop/sun.awt=ALL-UNNAMED
-      --add-opens=java.desktop/sun.font=ALL-UNNAMED
-      --add-opens=java.desktop/sun.java2d=ALL-UNNAMED
-      --add-opens=java.desktop/sun.swing=ALL-UNNAMED
-      --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED
-      --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED
-      --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED
-      --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED
-  '' else vmopts;
 
   package = if stdenv.isDarwin then ./bin/darwin.nix else ./bin/linux.nix;
-  mkJetBrainsProductCore = callPackage package { vmopts = vmopts'; };
+  mkJetBrainsProductCore = callPackage package { inherit vmopts; };
   mkMeta = meta: fromSource: {
     inherit (meta) homepage longDescription;
     description = meta.description + lib.optionalString meta.isOpenSource (if fromSource then " (built from source)" else " (patched binaries from jetbrains)");
