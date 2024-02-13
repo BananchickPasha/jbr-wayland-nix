@@ -93,8 +93,8 @@
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
       "version": "2024.1 EAP4",
-      "sha256": "sha256-k8gLG2LzHZIBuEU+cWmvkqqF2Zz0YuXLJ1fTw4Wr27c=",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-241.11761.31.tar.gz",
+      "sha256": "sha256-g+U8hhWF/6Pneq2DW/H4BB4d9VrWg/DOQLYDMNj2e1w=",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-EAP4-241.11761.31.Checked.tar.gz",
       "build_number": "241.11761.31"
     },
     "ruby-mine": {
