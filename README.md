@@ -1,6 +1,6 @@
 For simple use, run `nix run 'github:BananchickPasha/jbr-wayland-nix#jetbrains.<name-of-ide>'`
 
-###Overlays
+### Overlays
 
 This flake provides two overlays:
 
