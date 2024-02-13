@@ -68,9 +68,9 @@ with stdenv; lib.makeOverridable mkDerivation (rec {
     # When using the IDE as a remote backend using gateway, it expects the jbr directory to contain the jdk
     ln -s ${jdk.home} jbr
 
-    #if [ -d "plugins/remote-dev-server" ]; then
-    #  patch -p1 < ${../patches/jetbrains-remote-dev.patch}
-    #fi
+    if [ -d "plugins/remote-dev-server" ]; then
+      patch -F3 -p1 < ${../patches/jetbrains-remote-dev.patch}
+    fi
 
     vmopts_file=bin/linux/${vmoptsName}
     if [[ ! -f $vmopts_file ]]; then
