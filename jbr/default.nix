@@ -48,8 +48,8 @@ openjdk21.overrideAttrs (oldAttrs: rec {
   src = fetchFromGitHub {
     owner = "JetBrains";
     repo = "JetBrainsRuntime";
-    rev = "b530b4f4cbacde068ee1e3eae20b3e62d8d75696";
-    hash = "sha256-IZIdrZ6SaGoPYk6SaPXPnudbyItkaBE+l9ucvTPqXfM=";
+    rev = "9c4830bb437b740053815b46e58682d6db4f2559";
+    hash = "sha256-7hLUyyj7XhHba1iBE9EWgn4rky2MmR21rOtI403i7o8=";
   };
 
   SOURCE_DATE_EPOCH = 1666098567;
