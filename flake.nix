@@ -13,6 +13,7 @@
           vmopts = lib.readFile ./vmopts;
         };
       };
+
       editorsOverlay = final: prev: {
         jetbrains = with prev;
           (recurseIntoAttrs (callPackages ./editors {
@@ -21,14 +22,19 @@
             vmopts = jetbrains.vmopts;
           }) // jetbrains);
       };
-    in {
-      packages.x86_64-linux = with import nixpkgs {
-        system = "x86_64-linux";
-        overlays = [ jbrOverlay editorsOverlay ];
-        config.allowUnfree = true;
-      }; {
+
+      forSystem = system: with import nixpkgs
+        {
+          inherit system;
+          overlays = [ jbrOverlay editorsOverlay ];
+          config.allowUnfree = true;
+        }; {
         jetbrains = jetbrains;
       };
+    in
+    {
+      packages.x86_64-linux = forSystem "x86_64-linux";
+      packages.aarch64-linux = forSystem "aarch64-linux";
 
       overlays.jbrOverlay = jbrOverlay;
       overlays.editorsOverlay = editorsOverlay;
