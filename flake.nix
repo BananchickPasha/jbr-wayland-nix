@@ -8,6 +8,7 @@
       jbrOverlay = final: prev: {
         jetbrains = with prev; {
           jdk = callPackage ./jbr { };
+          jdk-no-jcef = callPackage ./jbr { withJcef = false; };
           jcef = callPackage ./jbr/jcef.nix { };
           versions = lib.importJSON ./editors/bin/versions.json;
           vmopts = lib.readFile ./vmopts;
