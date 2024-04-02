@@ -3,18 +3,18 @@
     "clion": {
       "update-channel": "CLion EAP",
       "url-template": "https://download.jetbrains.com/cpp/CLion-{version}.tar.gz",
-      "version": "2024.1 EAP",
-      "sha256": "0163a703f5148283f22484bde7321b6c77ac30b7d2694e1c17e3ac498d89a8de",
-      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.102.tar.gz",
-      "build_number": "241.14494.102"
+      "version": "2024.1 Beta",
+      "sha256": "2f9bf5c3b18b062602db3c1abf6e1777e2a334aeafc81e59f8902d758dc1a631",
+      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.154.tar.gz",
+      "build_number": "241.14494.154"
     },
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.tar.gz",
-      "version": "2024.1 EAP",
-      "sha256": "4355279312852a40edff376c8f1b23f42d20f135056f1b6fc0fccf20eda46113",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-241.14024.11.tar.gz",
-      "build_number": "241.14024.11"
+      "version": "2023.1 EAP",
+      "sha256": "df788f13c4825c51cc45118e8fd225dc6e1835e7d2f7f121153e244623c38e09",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78.tar.gz",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -94,7 +94,7 @@
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
       "version": "2024.1 EAP9",
       "sha256": "16d9759ec844b648629ab8d5d436daf1dbfd28c109520a63e4eff5892631f6af",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-EAP9-241.14494.107.Checked.tar.gz",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-241.14494.107.tar.gz",
       "build_number": "241.14494.107"
     },
     "ruby-mine": {
@@ -109,9 +109,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "51b6db1563d68326bd7c8defe1f6c04b428e1a592d06579edfeb0feb60c45077",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14015.155.tar.gz",
-      "build_number": "233.14015.155"
+      "sha256": "489ea17a55e39ddb11e2ba5d98d69dd8353e228ff4ba618a969f0fd2ff55d730",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74.tar.gz",
+      "build_number": "233.14475.74"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -126,18 +126,18 @@
     "clion": {
       "update-channel": "CLion EAP",
       "url-template": "https://download.jetbrains.com/cpp/CLion-{version}-aarch64.tar.gz",
-      "version": "2024.1 EAP",
-      "sha256": "b3a13811f07ab2ff3c4a17d65454634029b066b80eee64c60297639ee39a2c65",
-      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.102-aarch64.tar.gz",
-      "build_number": "241.14494.102"
+      "version": "2024.1 Beta",
+      "sha256": "7b0af35c568663c0de638dabad23c166962d89468718744081e911b186892885",
+      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.154-aarch64.tar.gz",
+      "build_number": "241.14494.154"
     },
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.tar.gz",
-      "version": "2024.1 EAP",
-      "sha256": "be062f3d008d79091b72c06ad1206381706315529f62b1ce8545f3e751c5c044",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-241.14024.11-aarch64.tar.gz",
-      "build_number": "241.14024.11"
+      "version": "2023.1 EAP",
+      "sha256": "8accc809a8bfdb71be87060570530ed9540b63bcf7a706df97143c765ba8d76a",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78-aarch64.tar.gz",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -232,9 +232,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "d71b4d2eb3769a3acc2ebb3b3324ca376b86eb6788bf9e85467db8ee60f006c7",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14015.155-aarch64.tar.gz",
-      "build_number": "233.14015.155"
+      "sha256": "e58fc90e714dd98483f10ed48588e2ce95bad049f4967193a8b0c294259ae2ab",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74-aarch64.tar.gz",
+      "build_number": "233.14475.74"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -249,18 +249,18 @@
     "clion": {
       "update-channel": "CLion EAP",
       "url-template": "https://download.jetbrains.com/cpp/CLion-{version}.dmg",
-      "version": "2024.1 EAP",
-      "sha256": "c127c135daa19b10f3a15f5f339fa41c6216bfe2003fa543ca83e97091ca5446",
-      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.102.dmg",
-      "build_number": "241.14494.102"
+      "version": "2024.1 Beta",
+      "sha256": "7f7480145e4d7192572b21c535bee52a20b096dde8206a8b559ef13f99b55ccc",
+      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.154.dmg",
+      "build_number": "241.14494.154"
     },
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.dmg",
-      "version": "2024.1 EAP",
-      "sha256": "52a6a038022a47ebe3e347af67468821e3956fc01c8db4586492f0f984f26f6f",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-241.14024.11.dmg",
-      "build_number": "241.14024.11"
+      "version": "2023.1 EAP",
+      "sha256": "4d24436d5af5a88a792b7e319e136f5a71cb31551d046dd4201eee5b58df9fb8",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78.dmg",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -355,9 +355,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.dmg",
       "version": "2023.3 EAP",
-      "sha256": "ceb2f78f0d018b66a2f81ad0e2facc7717e4d2f0fe0a3d3ef9277269afb64dee",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14015.155.dmg",
-      "build_number": "233.14015.155"
+      "sha256": "7d32ac16748977a70830eafeae983138d2f18724ed8255aa6967ce7a329206ec",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74.dmg",
+      "build_number": "233.14475.74"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -372,18 +372,18 @@
     "clion": {
       "update-channel": "CLion EAP",
       "url-template": "https://download.jetbrains.com/cpp/CLion-{version}-aarch64.dmg",
-      "version": "2024.1 EAP",
-      "sha256": "42c06c01d65d8e91a407b20af4a8720a1d07d141bed3184ad9b980bbaeca6e52",
-      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.102-aarch64.dmg",
-      "build_number": "241.14494.102"
+      "version": "2024.1 Beta",
+      "sha256": "168a1d1923cbdf5839315b153390e71f6f0044272b52a4799041f168eebd6e67",
+      "url": "https://download.jetbrains.com/cpp/CLion-241.14494.154-aarch64.dmg",
+      "build_number": "241.14494.154"
     },
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.dmg",
-      "version": "2024.1 EAP",
-      "sha256": "7ad9bbb0af7618c7ab4f3a915790ef262d3f60613726c70106ff73933b095fae",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-241.14024.11-aarch64.dmg",
-      "build_number": "241.14024.11"
+      "version": "2023.1 EAP",
+      "sha256": "d87859391c073884760e98b1adc7c1fd1521c5a80ddaaaf2e70f3948cd8dd060",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78-aarch64.dmg",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -478,9 +478,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.dmg",
       "version": "2023.3 EAP",
-      "sha256": "13c986d075c78e6a81db489247fc542014ad46da7cc7bd6fa1710be047ef0884",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14015.155-aarch64.dmg",
-      "build_number": "233.14015.155"
+      "sha256": "f1a11b0d241671b5afe811a76a7e43777d04a4819a3e83432508d53f319deb8f",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74-aarch64.dmg",
+      "build_number": "233.14475.74"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
