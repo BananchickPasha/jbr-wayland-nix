@@ -86,6 +86,8 @@ with stdenv; lib.makeOverridable mkDerivation (rec {
       # in at least rider and goland
       udev
     ])} >> $vmopts_file
+
+    echo -Dawt.toolkit.name=WLToolkit >> $vmopts_file
   '';
 
   installPhase = ''

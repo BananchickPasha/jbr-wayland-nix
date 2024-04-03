@@ -11,7 +11,6 @@
           jdk-no-jcef = callPackage ./jbr { withJcef = false; };
           jcef = callPackage ./jbr/jcef.nix { };
           versions = lib.importJSON ./editors/bin/versions.json;
-          vmopts = lib.readFile ./vmopts;
         };
       };
 
@@ -20,7 +19,6 @@
           (recurseIntoAttrs (callPackages ./editors {
             jdk = jetbrains.jdk;
             versions = jetbrains.versions;
-            vmopts = jetbrains.vmopts;
           }) // jetbrains);
       };
 

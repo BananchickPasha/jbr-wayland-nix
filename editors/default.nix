@@ -24,7 +24,7 @@
 , xorg
 , libGL
 
-, vmopts
+, vmopts ? null
 , versions
 }:
 
