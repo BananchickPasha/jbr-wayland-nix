@@ -90,12 +90,12 @@
       "build_number": "241.14494.122"
     },
     "rider": {
-      "update-channel": "Rider EAP",
+      "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-RC1-241.14494.225.tar.gz",
-      "version": "2024.1 RC",
+      "version": "2024.1",
       "sha256": "ff7340d332483873bd6d60c87379415bc68db6e56c5440b1742df29ecf254880",
       "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-RC1-241.14494.225.tar.gz",
-      "build_number": "241.14494.225"
+      "build_number": "241.14494.307"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -109,9 +109,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "489ea17a55e39ddb11e2ba5d98d69dd8353e228ff4ba618a969f0fd2ff55d730",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74.tar.gz",
-      "build_number": "233.14475.74"
+      "sha256": "a7176fb06c18ce50f8f901ecde9fa75e968ddf27e3366e70bffd7ad1208fdde9",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.15026.24.tar.gz",
+      "build_number": "233.15026.24"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -232,9 +232,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "e58fc90e714dd98483f10ed48588e2ce95bad049f4967193a8b0c294259ae2ab",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74-aarch64.tar.gz",
-      "build_number": "233.14475.74"
+      "sha256": "4e03720aae12b32f91d4ddf4e01cfb454311b8a0b901dcee733d62579aa4cc0c",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.15026.24-aarch64.tar.gz",
+      "build_number": "233.15026.24"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -355,9 +355,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.dmg",
       "version": "2023.3 EAP",
-      "sha256": "7d32ac16748977a70830eafeae983138d2f18724ed8255aa6967ce7a329206ec",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74.dmg",
-      "build_number": "233.14475.74"
+      "sha256": "b59ff55e4ba22df41acc9870f88b7f957f31af179e482ccaa4320b1f1ffff346",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.15026.24.dmg",
+      "build_number": "233.15026.24"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -478,9 +478,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.dmg",
       "version": "2023.3 EAP",
-      "sha256": "f1a11b0d241671b5afe811a76a7e43777d04a4819a3e83432508d53f319deb8f",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-233.14475.74-aarch64.dmg",
-      "build_number": "233.14475.74"
+      "sha256": "03e7c1e3c029cd72ddc9422cc1dc54ed581356b278127dc8d2b2f9e53d357054",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-233.15026.24-aarch64.dmg",
+      "build_number": "233.15026.24"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
