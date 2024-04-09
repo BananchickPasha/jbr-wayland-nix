@@ -91,10 +91,10 @@
     },
     "rider": {
       "update-channel": "Rider RELEASE",
-      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-RC1-241.14494.225.tar.gz",
+      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
       "version": "2024.1",
-      "sha256": "ff7340d332483873bd6d60c87379415bc68db6e56c5440b1742df29ecf254880",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-RC1-241.14494.225.tar.gz",
+      "sha256": "194096b0b550e1e320fc72aaf0510faeebf8737d05f6e02eecd72efe6f7cd757",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.tar.gz",
       "build_number": "241.14494.307"
     },
     "ruby-mine": {
