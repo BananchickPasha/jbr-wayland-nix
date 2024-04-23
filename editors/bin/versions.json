@@ -27,10 +27,10 @@
     "gateway": {
       "update-channel": "Gateway RELEASE",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
-      "version": "2024.1",
-      "sha256": "d777e88a3098790e19a93cb14fe4a21c740553958514e2b55fa2ba588f5c2c78",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.tar.gz",
-      "build_number": "241.14494.255"
+      "version": "2024.1.1",
+      "sha256": "2fd861d6fc91815466fc1f3b2bbd2177e55f1ea2c086fa10cf979de773d9cc06",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.1.tar.gz",
+      "build_number": "241.15989.74"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -67,10 +67,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
-      "version": "2024.1",
-      "sha256": "11c6862954f87b89d081cc0382e54b105d8b0c933dae78fd952cd2a3604889b2",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.tar.gz",
-      "build_number": "241.14494.237",
+      "version": "2024.1.1",
+      "sha256": "bb3d10d5ce7419f5123937bcd40f1584fca4b844a2f83b6850fec57cd1f44282",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.1.tar.gz",
+      "build_number": "241.15989.102",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -150,10 +150,10 @@
     "gateway": {
       "update-channel": "Gateway RELEASE",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.tar.gz",
-      "version": "2024.1",
-      "sha256": "3b6ffb21148d3327e9a5558c5657c22f7076c6208e8a10836f155d8f0200fb36",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1-aarch64.tar.gz",
-      "build_number": "241.14494.255"
+      "version": "2024.1.1",
+      "sha256": "f500422ce9f2c7edb6515b3e7c6336df94000f0c2c454fe207a295489dcf3a0d",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.1-aarch64.tar.gz",
+      "build_number": "241.15989.74"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -190,10 +190,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.tar.gz",
-      "version": "2024.1",
-      "sha256": "0c5debd888359b37c9c95176c09a16e94f2412fb88f98b928e64ed2466f88ec1",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1-aarch64.tar.gz",
-      "build_number": "241.14494.237",
+      "version": "2024.1.1",
+      "sha256": "c1ff0b85679cee8c17ee3ea4b19ccb3278540821c7162354bee900d95cbc52a4",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.1-aarch64.tar.gz",
+      "build_number": "241.15989.102",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -273,10 +273,10 @@
     "gateway": {
       "update-channel": "Gateway RELEASE",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
-      "version": "2024.1",
-      "sha256": "fb37fe7ba94f151f9613134b232b79f44524c126152f70eeb31421cee89b514d",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.dmg",
-      "build_number": "241.14494.255"
+      "version": "2024.1.1",
+      "sha256": "4513e26abf40f69a6eecd7f52d20a0f20e82a87722d4e8a4bd71718a4cba51b0",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.1.dmg",
+      "build_number": "241.15989.74"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -313,10 +313,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
-      "version": "2024.1",
-      "sha256": "75699ce909f07de35a6e89745c652f08afba5096b7930fdc51683989967fcc62",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.dmg",
-      "build_number": "241.14494.237",
+      "version": "2024.1.1",
+      "sha256": "0232f3e562698bbacf8c72446fc868d50d2b308ce17b6a0655fe351b46370fa4",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.1.dmg",
+      "build_number": "241.15989.102",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -396,10 +396,10 @@
     "gateway": {
       "update-channel": "Gateway RELEASE",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
-      "version": "2024.1",
-      "sha256": "c82392faec283b2a6ab25dd0cbd8c3733ea046799d9d95ba4b5d6086767f7715",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1-aarch64.dmg",
-      "build_number": "241.14494.255"
+      "version": "2024.1.1",
+      "sha256": "840eb4ae9d2de9bbe353007798a6337f307f177e907754382ce7bef8be060e01",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-2024.1.1-aarch64.dmg",
+      "build_number": "241.15989.74"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -436,10 +436,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
-      "version": "2024.1",
-      "sha256": "02bcb551de99cf070e90b2131b41f0b3e93aa776615bcfba1508e4c4d1bb9378",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1-aarch64.dmg",
-      "build_number": "241.14494.237",
+      "version": "2024.1.1",
+      "sha256": "b6b2b6181c724c320a491cea013c620f662e3fbc3a2f62718354d9e88c9d210d",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2024.1.1-aarch64.dmg",
+      "build_number": "241.15989.102",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
