@@ -38,26 +38,26 @@ let
 in
 openjdk21.overrideAttrs (oldAttrs: rec {
   pname = "jetbrains-jdk" + lib.optionalString withJcef "-jcef";
-  javaVersion = "21.0.2";
-  build = "1000.8";
+  javaVersion = "21.0.3";
+  build = "1000.9";
   # To get the new tag:
   # git clone https://github.com/jetbrains/jetbrainsruntime
   # cd jetbrainsruntime
   # git reset --hard [revision]
   # git log --simplify-by-decoration --decorate=short --pretty=short | grep "jbr-" --color=never | cut -d "(" -f2 | cut -d ")" -f1 | awk '{print $2}' | sort -t "-" -k 2 -g | tail -n 1 | tr -d ","
-  openjdkTag = "jdk-21+0";
+  openjdkTag = "jdk-21+3";
   version = "${javaVersion}-b${build}";
 
   src = fetchFromGitHub {
     owner = "JetBrains";
     repo = "JetBrainsRuntime";
-    rev = "51d67613bbef8f3dac2faeb728835873c78393dd";
-    hash = "sha256-axnH5TGbZT6q7yc0XJqP6gv0hHMHsxFXweHJNV+rC8E=";
+    rev = "fccbee551ac02796ca7a7b59385bcd2745bd64f7";
+    hash = "sha256-qLs2gKD4dFYbD0+nbugm+5vMeQ6SzSvygyC8uXowbaQ=";
   };
 
   BOOT_JDK = openjdk21.home;
   # run `git log -1 --pretty=%ct` in jdk repo for new value on update
-  SOURCE_DATE_EPOCH = 1691119859;
+  SOURCE_DATE_EPOCH = 1713865288;
 
   configurePlatforms = [ "build" "openjdk-target"];
 
