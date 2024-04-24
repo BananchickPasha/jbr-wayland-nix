@@ -51,8 +51,8 @@ openjdk21.overrideAttrs (oldAttrs: rec {
   src = fetchFromGitHub {
     owner = "JetBrains";
     repo = "JetBrainsRuntime";
-    rev = "fccbee551ac02796ca7a7b59385bcd2745bd64f7";
-    hash = "sha256-qLs2gKD4dFYbD0+nbugm+5vMeQ6SzSvygyC8uXowbaQ=";
+    rev = "a4f765d3ec233133becd5a8299f70a94ac8498fe";
+    hash = "sha256-I08LxZHr6kXNkqDr85wMPoiIsqasCdN8HXOxSI99mEg=";
   };
 
   BOOT_JDK = openjdk21.home;
