@@ -91,10 +91,10 @@
     },
     "rider": {
       "update-channel": "Rider EAP",
-      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
+      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.Checked.tar.gz",
       "version": "2024.2 EAP3",
-      "sha256": "9cb256e2c12c493a5bbb7c84a44aa618732c67a137fa0eddb748a777e25b29d5",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-242.16677.30.tar.gz",
+      "sha256": "6317946faff73ecfda07c2482c537d85518cc38a551906ac155f3182d5adf8fe",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked.tar.gz",
       "build_number": "242.16677.30"
     },
     "ruby-mine": {
@@ -214,10 +214,10 @@
     },
     "rider": {
       "update-channel": "Rider EAP",
-      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.tar.gz",
+      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.Checked-aarch64.tar.gz",
       "version": "2024.2 EAP3",
-      "sha256": "8991e31b3edc0a4347a9711e4f7267b91d3176d47abfa4f560d83d214ba70ff0",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-242.16677.30-aarch64.tar.gz",
+      "sha256": "b681fecefbbd8e81e5f4055c42028b19107995e6104bfcdfcb07181ad4810bec",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked-aarch64.tar.gz",
       "build_number": "242.16677.30"
     },
     "ruby-mine": {
@@ -337,10 +337,10 @@
     },
     "rider": {
       "update-channel": "Rider EAP",
-      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.dmg",
+      "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.Checked.dmg",
       "version": "2024.2 EAP3",
-      "sha256": "54eccb5d26825ae5022ab57207197f4fea68a02a0e6c4dceb3c79ce81750b1e5",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-242.16677.30.dmg",
+      "sha256": "54bca6acf7db5e217e624dd531b90dee7f895eafac43d659ff375d2672e24796",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked.dmg",
       "build_number": "242.16677.30"
     },
     "ruby-mine": {
@@ -463,7 +463,7 @@
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.dmg",
       "version": "2024.2 EAP3",
       "sha256": "ecde83909aff440727db6641c3f071c06e35b06e2148703ffa4ff270670469e2",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-242.16677.30-aarch64.dmg",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30-aarch64.dmg",
       "build_number": "242.16677.30"
     },
     "ruby-mine": {
