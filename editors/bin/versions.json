@@ -12,9 +12,9 @@
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "a955958e49ac976eb7b8e4999e7a3c7edef90187cdc781486dcb28696e277ac2",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.15523.28.tar.gz",
-      "build_number": "242.15523.28"
+      "sha256": "b3d38753747040b5c0e5459f4f8c47d39cf830dd4e06f38218d4b0b89997e8d7",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-242.18071.23.tar.gz",
+      "build_number": "242.18071.23"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -68,9 +68,9 @@
       "update-channel": "PhpStorm EAP",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "e47e613e1fd29535f4a4e76c1e352a99331c382d4051b485ca20ee36e5ba3535",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-242.16677.23.tar.gz",
-      "build_number": "242.16677.23",
+      "sha256": "16792ad8bec0e114acecf71c2bbc4e873a65ce081075e97b63fc9c62bda47d8d",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-242.18071.27.tar.gz",
+      "build_number": "242.18071.27",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -92,10 +92,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2024.2 EAP3",
-      "sha256": "6317946faff73ecfda07c2482c537d85518cc38a551906ac155f3182d5adf8fe",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked.tar.gz",
-      "build_number": "242.16677.30"
+      "version": "2024.2 EAP4",
+      "sha256": "175c2b105b041384a80ec05b1795f1fa6f54a45304a1bc58ba3c029e6dae37e7",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP4-242.18071.30.Checked.tar.gz",
+      "build_number": "242.18071.30"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -135,9 +135,9 @@
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "58a64a3410df2089f87f958cbea502e29b148f87df2d68017917f6568a8eb074",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.15523.28-aarch64.tar.gz",
-      "build_number": "242.15523.28"
+      "sha256": "1929fa0e596a25e3058697fb8bc0d146e1899839f1796f8f0c56bfeefe33d00d",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-242.18071.23-aarch64.tar.gz",
+      "build_number": "242.18071.23"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -191,9 +191,9 @@
       "update-channel": "PhpStorm EAP",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "f6ddf1aa19440cbd5b06fef9a626419540bd6e77fd32bf818bd6f9c1334d2cd8",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-242.16677.23-aarch64.tar.gz",
-      "build_number": "242.16677.23",
+      "sha256": "2d72627476c50dc07817cc88ce6fa0a778e993b9732d71d6d9879e95332f1dad",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-242.18071.27-aarch64.tar.gz",
+      "build_number": "242.18071.27",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -215,10 +215,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.tar.gz",
-      "version": "2024.2 EAP3",
-      "sha256": "b681fecefbbd8e81e5f4055c42028b19107995e6104bfcdfcb07181ad4810bec",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked-aarch64.tar.gz",
-      "build_number": "242.16677.30"
+      "version": "2024.2 EAP4",
+      "sha256": "fb57e30587dd8e5ec7c59a891a89e478e2aed6c4fe1ef8e47356a5ae55942a9b",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP4-242.18071.30.Checked-aarch64.tar.gz",
+      "build_number": "242.18071.30"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -258,9 +258,9 @@
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.dmg",
       "version": "2024.2 EAP",
-      "sha256": "525e7e574de59e8eaea7c694d0741f804f494ddc29eedf20ea02a210a354f474",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.15523.28.dmg",
-      "build_number": "242.15523.28"
+      "sha256": "8bab4be218434ff0e1717aa2e29b76c5f300a4e17702a73c6f72b1aae9d7dd29",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-242.18071.23.dmg",
+      "build_number": "242.18071.23"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -314,9 +314,9 @@
       "update-channel": "PhpStorm EAP",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
       "version": "2024.2 EAP",
-      "sha256": "bcab1fe0df3c247fc13f06a563cb244568cfc2c6061fd56476da2349d7ab715c",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-242.16677.23.dmg",
-      "build_number": "242.16677.23",
+      "sha256": "10b390621e42f8fcbf0dd8a489ca3ceadbaaa99dd04c5c79e7cdcd563362ac6e",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-242.18071.27.dmg",
+      "build_number": "242.18071.27",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -338,10 +338,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.dmg",
-      "version": "2024.2 EAP3",
-      "sha256": "54bca6acf7db5e217e624dd531b90dee7f895eafac43d659ff375d2672e24796",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked.dmg",
-      "build_number": "242.16677.30"
+      "version": "2024.2 EAP4",
+      "sha256": "df5a41e1598d3ca25bf8b3f89579330b52530ec8c53210dd0a055f74b8ea705a",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP4-242.18071.30.Checked.dmg",
+      "build_number": "242.18071.30"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -381,9 +381,9 @@
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.dmg",
       "version": "2024.2 EAP",
-      "sha256": "bef7e05d5177a890d56c24e557f9b39018a179e7dd37482c3696a7e446126e44",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.15523.28-aarch64.dmg",
-      "build_number": "242.15523.28"
+      "sha256": "be26ae95accdd9c3c800516e9789d53b3db739997c99535fca1ad7c3db285a90",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-242.18071.23-aarch64.dmg",
+      "build_number": "242.18071.23"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
@@ -437,9 +437,9 @@
       "update-channel": "PhpStorm EAP",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
       "version": "2024.2 EAP",
-      "sha256": "c2ca6da9bd54b4188755e1c6edb13a4ca06896602dfcd0ce879fe0c74a518236",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-242.16677.23-aarch64.dmg",
-      "build_number": "242.16677.23",
+      "sha256": "1ffa99a121c045972394330c4d937bcbcc333bcdb7123135b0b8a3377394da90",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-242.18071.27-aarch64.dmg",
+      "build_number": "242.18071.27",
       "version-major-minor": "2022.3"
     },
     "pycharm-community": {
@@ -461,10 +461,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.dmg",
-      "version": "2024.2 EAP3",
-      "sha256": "d6ecd55f5e21c20ab98f06d19dd714a7ac3a3238d3f7a32bdd4c8f3c5a4c73f1",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP3-242.16677.30.Checked-aarch64.dmg",
-      "build_number": "242.16677.30"
+      "version": "2024.2 EAP4",
+      "sha256": "f2cd3e162b3412bcf72357354c432c5878bea8212ddb66fdab9daa7c73691f2f",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP4-242.18071.30.Checked-aarch64.dmg",
+      "build_number": "242.18071.30"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
