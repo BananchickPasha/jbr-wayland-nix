@@ -38,14 +38,14 @@ let
 in
 openjdk21.overrideAttrs (oldAttrs: rec {
   pname = "jetbrains-jdk" + lib.optionalString withJcef "-jcef";
-  javaVersion = "21.0.3";
+  javaVersion = "21.0.4";
   build = "1000.9";
   # To get the new tag:
   # git clone https://github.com/jetbrains/jetbrainsruntime
   # cd jetbrainsruntime
   # git reset --hard [revision]
   # git log --simplify-by-decoration --decorate=short --pretty=short | grep "jbr-" --color=never | cut -d "(" -f2 | cut -d ")" -f1 | awk '{print $2}' | sort -t "-" -k 2 -g | tail -n 1 | tr -d ","
-  openjdkTag = "jdk-21+3";
+  openjdkTag = "jdk-21+4";
   version = "${javaVersion}-b${build}";
 
   src = fetchFromGitHub {
