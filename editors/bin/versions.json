@@ -20,9 +20,9 @@
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "fd999cb52b67f599a91570b2bd2e18366c80e17ea4830e42b52d0803b58cb14a",
-      "url": "https://download.jetbrains.com/python/dataspell-242.15523.21.tar.gz",
-      "build_number": "242.15523.21"
+      "sha256": "43d3a0fda37b6ac0b4bf49732414c975f525ba6dd7f507b835b744ded3dee16c",
+      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180.tar.gz",
+      "build_number": "242.20224.180"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -92,10 +92,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2024.2 EAP8",
-      "sha256": "979068f0457d11bd811033334ed058d9be56808bf610ca7f2aa422456de18c6e",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP8-242.20224.88.Checked.tar.gz",
-      "build_number": "242.20224.88"
+      "version": "2024.2 EAP9",
+      "sha256": "8d37cebb2c7be11eafadc9e88c51c4c7876d355c093de5dad64f5d26a6c1b613",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP9-242.20224.162.Checked.tar.gz",
+      "build_number": "242.20224.162"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -109,9 +109,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "0ea2ed7344a747be14fddaa541b6a32aa470b9281254afaffcf6bd40620b8328",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.39.tar.gz",
-      "build_number": "242.19890.39"
+      "sha256": "4546d8097a60ae5119f934b035a73011bbe0b8028ecb929db16d5a21d8fd25f7",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43.tar.gz",
+      "build_number": "242.19890.43"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -143,9 +143,9 @@
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}-aarch64.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "640ec1768922443da43d9ab3d6ce2fc3bde3bf6b3852d5ef2d9346cae85cc318",
-      "url": "https://download.jetbrains.com/python/dataspell-242.15523.21-aarch64.tar.gz",
-      "build_number": "242.15523.21"
+      "sha256": "967d733cd66ae83661ad7586111d5da51e7df2a7e7913b9d90012814d08239e5",
+      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180-aarch64.tar.gz",
+      "build_number": "242.20224.180"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -215,10 +215,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.tar.gz",
-      "version": "2024.2 EAP8",
-      "sha256": "39a4678fe46097f1e5681a86da4094c94c2c79e4145b19da5c1df7f61c61e121",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP8-242.20224.88.Checked-aarch64.tar.gz",
-      "build_number": "242.20224.88"
+      "version": "2024.2 EAP9",
+      "sha256": "84d1f9ca2ece62e7256aff0d6366fff106c556b579d89a678c86b29cb2805569",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP9-242.20224.162.Checked-aarch64.tar.gz",
+      "build_number": "242.20224.162"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -232,9 +232,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "72ac2e80b256615fef36cbcbdec4ad971887afcde88c414a91b50ca83a9fa41c",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.39-aarch64.tar.gz",
-      "build_number": "242.19890.39"
+      "sha256": "6b6776baf3b679e0acd3afdbbd53eb7c26c9a9c5f1acfd21fd1e6b4df162196d",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43-aarch64.tar.gz",
+      "build_number": "242.19890.43"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -266,9 +266,9 @@
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}.dmg",
       "version": "2024.2 EAP",
-      "sha256": "45d44e1959876c60d99b2defee928cdae83351a7ec1ac40a24e693ecba7556cb",
-      "url": "https://download.jetbrains.com/python/dataspell-242.15523.21.dmg",
-      "build_number": "242.15523.21"
+      "sha256": "132705f2d9561a8c2faa6cfc7815da466d8ff458031f15145acb87b2684c72e2",
+      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180.dmg",
+      "build_number": "242.20224.180"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -338,10 +338,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.dmg",
-      "version": "2024.2 EAP8",
-      "sha256": "460472a4212624136c2d736ffa8207bf2316e78e005f39b216cf788d1942b4f7",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP8-242.20224.88.Checked.dmg",
-      "build_number": "242.20224.88"
+      "version": "2024.2 EAP9",
+      "sha256": "43cab887a741ba2e290c7368834c105dcaca4e6d4e257f2360b5f6721890e3d7",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP9-242.20224.162.Checked.dmg",
+      "build_number": "242.20224.162"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -355,9 +355,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.dmg",
       "version": "2024.2 EAP",
-      "sha256": "7a92723787082bd1799ce59d59d1e317d0e26138c6f26ebaa57e1ac68a0a833e",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.39.dmg",
-      "build_number": "242.19890.39"
+      "sha256": "036e2642873de2cad36f17b6048cc4fc9aaadbfff9c58e66944cc87c9e84bc3c",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43.dmg",
+      "build_number": "242.19890.43"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -389,9 +389,9 @@
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}-aarch64.dmg",
       "version": "2024.2 EAP",
-      "sha256": "12fb1bdebf8b46a19707dcf41392cae2426518d5d6386566d29f634975fb4ff4",
-      "url": "https://download.jetbrains.com/python/dataspell-242.15523.21-aarch64.dmg",
-      "build_number": "242.15523.21"
+      "sha256": "df91585fd14d72b6994721356601d27a59ddec0170b51c41a4fba991f6505712",
+      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180-aarch64.dmg",
+      "build_number": "242.20224.180"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -461,10 +461,10 @@
     "rider": {
       "update-channel": "Rider EAP",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.dmg",
-      "version": "2024.2 EAP8",
-      "sha256": "0c73802c24983c42c567054c98dc4edb9577186dcfbf48343ff553940ef1e6f7",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP8-242.20224.88.Checked-aarch64.dmg",
-      "build_number": "242.20224.88"
+      "version": "2024.2 EAP9",
+      "sha256": "c5e520eaab8270ff3d6ede9e8894d11a7bb3b0505e995cdda8566e4208cc02a1",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP9-242.20224.162.Checked-aarch64.dmg",
+      "build_number": "242.20224.162"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
@@ -478,9 +478,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.dmg",
       "version": "2024.2 EAP",
-      "sha256": "700a8db2d8b470c68d3ad95a618352299b141146177757fa4d5d975cb4ed1668",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.39-aarch64.dmg",
-      "build_number": "242.19890.39"
+      "sha256": "bb080c8fc899860ed010e2cf3df75a06f98e14294be6c1f04faf78092a72d819",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43-aarch64.dmg",
+      "build_number": "242.19890.43"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
