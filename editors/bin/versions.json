@@ -11,18 +11,18 @@
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.tar.gz",
-      "version": "2024.2 EAP",
-      "sha256": "fe5941d620521e23853630a31efb5f88a05a22c20ad31d4da041861a795df8e2",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.20224.99.tar.gz",
-      "build_number": "242.20224.99"
+      "version": "2023.1 EAP",
+      "sha256": "df788f13c4825c51cc45118e8fd225dc6e1835e7d2f7f121153e244623c38e09",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78.tar.gz",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}.tar.gz",
-      "version": "2024.2 EAP",
-      "sha256": "43d3a0fda37b6ac0b4bf49732414c975f525ba6dd7f507b835b744ded3dee16c",
-      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180.tar.gz",
-      "build_number": "242.20224.180"
+      "version": "2024.1 EAP",
+      "sha256": "8fce4b61c83228e2133eb67d59ff2686c0ef5d7f6e0adf407912856dc1209f8c",
+      "url": "https://download.jetbrains.com/python/dataspell-241.14494.121.tar.gz",
+      "build_number": "241.14494.121"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -109,9 +109,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "4546d8097a60ae5119f934b035a73011bbe0b8028ecb929db16d5a21d8fd25f7",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43.tar.gz",
-      "build_number": "242.19890.43"
+      "sha256": "db1adb2da9e1ff3381ee644e2527f0d9d2cf332645607c49a893106613826ebb",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.20224.309.tar.gz",
+      "build_number": "242.20224.309"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -134,18 +134,18 @@
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.tar.gz",
-      "version": "2024.2 EAP",
-      "sha256": "9bd5fef87e4d1e320b33e53dcc584fe3ebb0e99ef6d10f72e925172d59e29d25",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.20224.99-aarch64.tar.gz",
-      "build_number": "242.20224.99"
+      "version": "2023.1 EAP",
+      "sha256": "8accc809a8bfdb71be87060570530ed9540b63bcf7a706df97143c765ba8d76a",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78-aarch64.tar.gz",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}-aarch64.tar.gz",
-      "version": "2024.2 EAP",
-      "sha256": "967d733cd66ae83661ad7586111d5da51e7df2a7e7913b9d90012814d08239e5",
-      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180-aarch64.tar.gz",
-      "build_number": "242.20224.180"
+      "version": "2024.1 EAP",
+      "sha256": "d8fddda9eaea06021d7576e8cd3166d34ea389fedd645358d2c31399bd6d7f5f",
+      "url": "https://download.jetbrains.com/python/dataspell-241.14494.121-aarch64.tar.gz",
+      "build_number": "241.14494.121"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -232,9 +232,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.tar.gz",
       "version": "2024.2 EAP",
-      "sha256": "6b6776baf3b679e0acd3afdbbd53eb7c26c9a9c5f1acfd21fd1e6b4df162196d",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43-aarch64.tar.gz",
-      "build_number": "242.19890.43"
+      "sha256": "48411946b3e78c06b855419df3207e8f462a7796b25edeb36d367b91bef2b7f1",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.20224.309-aarch64.tar.gz",
+      "build_number": "242.20224.309"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -257,18 +257,18 @@
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}.dmg",
-      "version": "2024.2 EAP",
-      "sha256": "f151d03a0ccb7571e9c219372b4607da4749f11c09b9e2771267325efad7c4e5",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.20224.99.dmg",
-      "build_number": "242.20224.99"
+      "version": "2023.1 EAP",
+      "sha256": "4d24436d5af5a88a792b7e319e136f5a71cb31551d046dd4201eee5b58df9fb8",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78.dmg",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}.dmg",
-      "version": "2024.2 EAP",
-      "sha256": "132705f2d9561a8c2faa6cfc7815da466d8ff458031f15145acb87b2684c72e2",
-      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180.dmg",
-      "build_number": "242.20224.180"
+      "version": "2024.1 EAP",
+      "sha256": "00aa8da261a9e5d4288d39de318d4b54224a4bb18bc4f9b72b08b3a97b5d6ab8",
+      "url": "https://download.jetbrains.com/python/dataspell-241.14494.121.dmg",
+      "build_number": "241.14494.121"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -355,9 +355,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}.dmg",
       "version": "2024.2 EAP",
-      "sha256": "036e2642873de2cad36f17b6048cc4fc9aaadbfff9c58e66944cc87c9e84bc3c",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43.dmg",
-      "build_number": "242.19890.43"
+      "sha256": "8d1409d81fb22bdd4be6a75ac01126e2732c6c50e711690452d2e6705147287e",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.20224.309.dmg",
+      "build_number": "242.20224.309"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
@@ -380,18 +380,18 @@
     "datagrip": {
       "update-channel": "DataGrip EAP",
       "url-template": "https://download.jetbrains.com/datagrip/datagrip-{version}-aarch64.dmg",
-      "version": "2024.2 EAP",
-      "sha256": "954eb54c4049ce8a2a5e6bac029a0b6e45c09281accc69d36e28517e77e94633",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-242.20224.99-aarch64.dmg",
-      "build_number": "242.20224.99"
+      "version": "2023.1 EAP",
+      "sha256": "d87859391c073884760e98b1adc7c1fd1521c5a80ddaaaf2e70f3948cd8dd060",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-231.8109.78-aarch64.dmg",
+      "build_number": "231.8109.78"
     },
     "dataspell": {
       "update-channel": "DataSpell EAP",
       "url-template": "https://download.jetbrains.com/python/dataspell-{version}-aarch64.dmg",
-      "version": "2024.2 EAP",
-      "sha256": "df91585fd14d72b6994721356601d27a59ddec0170b51c41a4fba991f6505712",
-      "url": "https://download.jetbrains.com/python/dataspell-242.20224.180-aarch64.dmg",
-      "build_number": "242.20224.180"
+      "version": "2024.1 EAP",
+      "sha256": "a2da2e47dbabff174c59912a758468beeec16e41ca3ebde22be30361c0d81ce2",
+      "url": "https://download.jetbrains.com/python/dataspell-241.14494.121-aarch64.dmg",
+      "build_number": "241.14494.121"
     },
     "gateway": {
       "update-channel": "Gateway EAP",
@@ -478,9 +478,9 @@
       "update-channel": "RustRover EAP",
       "url-template": "https://download.jetbrains.com/rustrover/RustRover-{version}-aarch64.dmg",
       "version": "2024.2 EAP",
-      "sha256": "bb080c8fc899860ed010e2cf3df75a06f98e14294be6c1f04faf78092a72d819",
-      "url": "https://download.jetbrains.com/rustrover/RustRover-242.19890.43-aarch64.dmg",
-      "build_number": "242.19890.43"
+      "sha256": "8db468c8dc2b067a785618971dc89ad5e60705a94a874e116d4f7b910b7b7122",
+      "url": "https://download.jetbrains.com/rustrover/RustRover-242.20224.309-aarch64.dmg",
+      "build_number": "242.20224.309"
     },
     "webstorm": {
       "update-channel": "WebStorm EAP",
