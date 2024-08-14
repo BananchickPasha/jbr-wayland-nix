@@ -90,12 +90,12 @@
       "build_number": "242.20224.89"
     },
     "rider": {
-      "update-channel": "Rider EAP",
+      "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2024.2 EAP9",
-      "sha256": "8d37cebb2c7be11eafadc9e88c51c4c7876d355c093de5dad64f5d26a6c1b613",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP9-242.20224.162.Checked.tar.gz",
-      "build_number": "242.20224.162"
+      "version": "2024.1.6",
+      "sha256": "e033996e06ca080200f7a96b1b6fd97fc65f9467fbc564ccc44ecabfec9fbe5e",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.6.tar.gz",
+      "build_number": "241.19072.26"
     },
     "ruby-mine": {
       "update-channel": "RubyMine EAP",
