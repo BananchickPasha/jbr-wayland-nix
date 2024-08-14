@@ -94,7 +94,7 @@
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
       "version": "2024.2 RC",
       "sha256": "56ea16c54c8e236147a21afa3690f0bb67bbbfdc069454bed5c40f3b363c1ebe",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-242.20224.285.tar.gz",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-RC1-242.20224.285-aarch64.tar.gz",
       "build_number": "242.20224.285"
     },
     "ruby-mine": {
