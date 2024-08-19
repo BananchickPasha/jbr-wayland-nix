@@ -71,7 +71,7 @@ def update_product(name, product):
             new_build_number = build["@fullNumber"]
             if "EAP" not in channel["@name"]:
                 version_or_build_number = new_version
-            elif "rider" in name:
+            elif "rider" in name and "RELEASE" not in channel["@name"]:
                 version_or_build_number = f"{new_version}-{new_build_number}.Checked".replace(' ', '-')
             else:
                 version_or_build_number = new_build_number
