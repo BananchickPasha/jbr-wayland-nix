@@ -90,12 +90,12 @@
       "build_number": "242.20224.347"
     },
     "rider": {
-      "update-channel": "Rider RELEASE licensing:RELEASE",
+      "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2024.2 RC",
-      "sha256": "56ea16c54c8e236147a21afa3690f0bb67bbbfdc069454bed5c40f3b363c1ebe",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-RC1-242.20224.285-aarch64.tar.gz",
-      "build_number": "242.20224.285"
+      "version": "2024.2",
+      "sha256": "b68cc7f109347cedb93817cc35a6e1f0089b205e6ae5ae8ce400fbb2ff613c0a",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2.tar.gz",
+      "build_number": "242.20224.401"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
