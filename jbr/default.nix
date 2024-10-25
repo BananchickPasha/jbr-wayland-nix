@@ -38,21 +38,21 @@ let
 in
 openjdk21.overrideAttrs (oldAttrs: rec {
   pname = "jetbrains-jdk" + lib.optionalString withJcef "-jcef";
-  javaVersion = "21.0.4";
+  javaVersion = "21.0.5";
   build = "1000.9";
   # To get the new tag:
   # git clone https://github.com/jetbrains/jetbrainsruntime
   # cd jetbrainsruntime
   # git reset --hard [revision]
   # git log --simplify-by-decoration --decorate=short --pretty=short | grep "jbr-" --color=never | cut -d "(" -f2 | cut -d ")" -f1 | awk '{print $2}' | sort -t "-" -k 2 -g | tail -n 1 | tr -d ","
-  openjdkTag = "jdk-21+4";
+  openjdkTag = "jdk-21+5";
   version = "${javaVersion}-b${build}";
 
   src = fetchFromGitHub {
     owner = "JetBrains";
     repo = "JetBrainsRuntime";
-    rev = "af9368d66c2083c7ace649de72be0e4e89cc97ce";
-    hash = "sha256-7c/Icaec7CUxb16tSBUWFKewnagQ9m8jbuCDgQBHRcg=";
+    rev = "fcee96fcc4402305200821707672f7ec9d1caaba";
+    hash = "sha256-Totru+cU+6xocub//wE6K7WCdUCKQxY+5IpN1eIGZyo=";
   };
 
   BOOT_JDK = openjdk21.home;
@@ -98,9 +98,9 @@ openjdk21.overrideAttrs (oldAttrs: rec {
       mv build/linux-${cpu}-server-${buildType}/images/${jbrsdkDir} build/linux-${cpu}-server-${buildType}/images/jdk
     '' + oldAttrs.installPhase + "runHook postInstall";
 
-  postInstall = lib.optionalString withJcef ''
-    chmod +x $out/lib/openjdk/lib/chrome-sandbox
-  '';
+  #postInstall = lib.optionalString withJcef ''
+  #  chmod +x $out/lib/openjdk/lib/chrome-sandbox
+  #'';
 
   dontStrip = debugBuild;
 
